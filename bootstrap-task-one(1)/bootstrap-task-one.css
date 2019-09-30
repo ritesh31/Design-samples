@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,200italic);
+
+.container{
+  max-width: 100%;
+}
+.container .row{
+}
+.header-img-container{
+  height: 266px;
+  display: block;
+  /* position: relative; */
+  overflow: hidden;
+}
+.header-img-container img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+.employee-details-container{
+  padding: 42px 20px 0px 100px;
+  color: #be3625;
+  font-weight: bold;
+}
+.employee-details-container :nth-child(3){
+    /* padding-right: 20%; */
+}
+.employee-details-container .description{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 13px;
+}
+.employee-comments-container{
+  display: flex;
+}
+.comment-container{
+  padding: 10px 35px;
+  font-size: 13px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  background-color: #be3625;
+}
+.next-button-container{
+  color: #be3625;
+}
+.next-button-container i{
+  background: red;
+  width: 20px;
+  text-align: center;
+  height: 18px;
+  border-radius: 50%;
+  color: white;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.signup-container .col-7{
+  text-align: center;
+  padding-top: 20px;
+  margin-left: 25px;
+}
+.signup-container .col-7 span{
+  color: red;
+}
+.text-field-content{
+  background-color: white;
+  padding: 11px;
+}
+.text-field-content input{
+  margin-bottom: 5px;
+  height: 25px;
+  background: #ededed;
+  border: 0px;
+  font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.signup-container .col-7 .fa-angle-right{
+  background: red;
+  width: 20px;
+  text-align: center;
+  height: 18px;
+  border-radius: 50%;
+  color: white;
+  vertical-align: middle;
+  font-weight: bold;
+}
+.fa-phone{
+  background: gray;
+  border-radius: 8px;
+  width: 20px;
+  height: 20px;
+  padding-top: 2px;
+  color: white;
+}
+.fa-phone span{
+  color: gray !important;
+}
+.signup-container .col-7 .dropdown-toggle{
+  color: red;
+  font-size: 10px;
+  font-weight: bold;
+  background: #ededed;
+  border: 0px;
+}
+
+/* 2nd container */
+#secondContainer{
+  color: #eba338;
+}
+#secondContainer .employee-details-container div .employee-comments-container .comment-container{
+  background-color: #eba338;
+}
+#secondContainer .signup-container .col-7 span{
+  color: #eba338;
+}
+
+/* 3rd container */
+#thirdContainer{
+  color: #789c40;
+}
+#thirdContainer .comment-container{
+  background-color: #789c40;
+}
